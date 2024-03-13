@@ -1,6 +1,2 @@
 # AYED-2024
-Practicas de la cursada
-
-Alumno : Contreras Julio
-
-
+practicas de la cursada
