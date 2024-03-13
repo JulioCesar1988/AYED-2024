@@ -1,5 +1,4 @@
 package Ejercicios.practica1;
-
 /*
 1. Escriba tres métodos de clase (static) que reciban por parámetro dos números enteros (tipo
 int) a y b e impriman todos los números enteros comprendidos entre a; b (inclusive), uno por
