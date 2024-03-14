@@ -2,6 +2,7 @@ package Ejercicios.practica1;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 /*
 2. Escriba un método de clase que dado un número n devuelva un nuevo arreglo de tamaño n
@@ -22,7 +23,17 @@ public class Ejercicio2 {
 
     public static void main(String[] args) {
         int n = 5;
-        List<Integer> list = procesar(n);
+       // List<Integer> list = procesar(n);
+            System.out.println("INGRESE NUEMEROS DISTINTOS A 42 ");
+            Scanner s = new Scanner(System.in) ;
+            int cantidad = 1 ;
+            while (s.nextInt() != 42) {
+
+                cantidad++;
+            }
+
+
+
     }
 
 
