@@ -1,8 +1,6 @@
 package Ejercicios.practica1;
-
 /* 5. Dado un arreglo de valores tipo entero se desea calcular el valor máximo, mínimo, y promedio
 en un único método.
-
 Escriba tres métodos de clase, donde respectivamente:
 a. Devuelva lo pedido por el mecanismo de retorno de un método en Java ("return").
 b. Devuelva lo pedido interactuando con algún parámetro (el parámetro no puede ser de
@@ -13,7 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Ejercicio5 {
-
     public static List OpcionReturn(ArrayList<Integer> arrelgo) {
      // search  max , min promedio
        Integer max = Integer.MIN_VALUE;
@@ -29,15 +26,12 @@ public class Ejercicio5 {
             }
             sum = sum + arrelgo.get(i);
         }
-
         System.out.println("MAXIMO VALORE =>"+max );
         System.out.println("MINIMO VALOR => "+ min);
         System.out.println("PROMEDIO => "+ sum/arrelgo.size());
-
         lista.add(max);
         lista.add(min);
         lista.add(sum/arrelgo.size());
-
        return lista;
 
     }

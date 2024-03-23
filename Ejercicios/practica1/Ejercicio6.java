@@ -1,6 +1,4 @@
 package Ejercicios.practica1;
-
-
 /*6. Análisis de las estructuras de listas provistas por la API de Java.
         a. ¿En qué casos ArrayList ofrece un mejor rendimiento que LinkedList?
         b. ¿Cuándo LinkedList puede ser más eficiente que ArrayList?
